@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- daisy ui  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Assignment-5</title>
+  </head>
+  <body class="w-10/12 mx-auto">
+    <!-- header part -->
+    <header>
+      <div class="flex justify-between mt-4 bg-slate-300 rounded-lg h-14">
+        <div class="flex gap-2 text-center">
+          <img class="size-8" src="assets/logo.png" alt="" />
+          <section class="font-bold text-lg">
+            Dev <span class="font-extrabold">Board</span>
+          </section>
+        </div>
+        <div class="flex gap-2 mr-4">
+          <div
+            class="flex justify-center mx-4 my-3 bg-red-300 gap-2 rounded-lg"
+          >
+            <img class="size-5" src="assets/checkbox.png" alt="" />
+            <h3 class="font-bold">23</h3>
+          </div>
+          <div class="bg-teal-300 rounded-full">
+            <img
+              class="size-7 flex justify-center m-3"
+              src="assets/theme-btn.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- cards section -->
+      <section class="mt-10">
+        <!-- 1st card -->
+        <div>
+          <div class="card card-border bg-slate-400 w-96">
+            <div class="card-body">
+              <h2 class="card-title">Fix Mobile Button Issue</h2>
+              <p>
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
+              </p>
+              <div class="card-actions justify-between">
+                <div>
+                  <p>Deadline</p>
+                  <h5>21 March 2025</h5>
+                </div>
+                <button class="btn btn-primary">Completed</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
